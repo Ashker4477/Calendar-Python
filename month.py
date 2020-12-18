@@ -1,6 +1,6 @@
 import datetime
-
-def calander():
+import calendar
+def mon():
     x = datetime.datetime.now()
     y = x.strftime("%A")
     print(x.strftime("%B"))

@@ -4,7 +4,7 @@ while True:
     if ch==1:
         cal.day()
     elif ch==2:
-        month.calander()
+        month.mon()
     else:
         break
 
