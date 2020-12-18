@@ -1,5 +1,8 @@
+import datetime
 def day():
-    d={1:'tuesday',2:'wednesday',3:'thursday',4:'friday',5:'saturday',6:'sunday',7:'monday'}
+    x = datetime.datetime.now()
+    print(x.strftime("%A"))
+    '''d={1:'tuesday',2:'wednesday',3:'thursday',4:'friday',5:'saturday',6:'sunday',7:'monday'}
     while True:
         c=int(input("enter the date"))
         if c==1:
@@ -66,7 +69,7 @@ def day():
             print()
         
         else:
-            break
+            break'''
             
 
         
