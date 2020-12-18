@@ -1,5 +1,9 @@
+import datetime
+
 def calander():
-    print("september")
+    x = datetime.datetime.now()
+    print(x.strftime("%B"))
+    '''print("september")
     print("mon\ttue\twed\tthu\tfri\tsat\tsun")
     for i in range(1,8):
         print(i,"\t",end=" ")
@@ -15,7 +19,7 @@ def calander():
     print()
     for i in range(29,31):
         print(i,"\t",end=" ")
-    print()
+    print()'''
         
     
     
